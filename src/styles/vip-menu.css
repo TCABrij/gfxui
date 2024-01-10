@@ -69,3 +69,9 @@
     justify-content: space-between;
     padding: .3rem;
 }
+
+.buttons-wrapper{
+    padding: .5rem 0rem;
+    margin: 1rem 0rem;
+    gap: .3rem;
+}
