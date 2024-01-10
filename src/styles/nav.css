@@ -15,9 +15,13 @@ nav:hover{
     height: 50px;
 }
 
+nav:hover .links{
+    gap: 1.3rem;
+}
+
 .links{
     /* justify-content: space-around; */
-    gap: 2rem;
+    gap: 1.5rem;
 }
 
 nav img{
@@ -27,11 +31,19 @@ nav img{
 }
 
 nav img:hover{
-    filter: drop-shadow(0px 0px 2px white);
+    filter: drop-shadow(0px 0px 2px black);
     cursor: pointer;
     box-shadow: 0px 0px 2px rgb(255, 255, 255);
+    scale: .95;
 }
 
+nav .invert:hover{
+    filter: drop-shadow(0px 0px 2px white) invert();
+}
+
+nav .home{
+    scale: 1.05;
+}
 nav:hover img{
     width: 40px;
 }

@@ -1,0 +1,51 @@
+.game-selection{
+    padding: 1rem;
+}
+
+.game-selection h3{
+    font-weight: 400;
+    font-size: 1.3rem;
+}
+
+.games{
+    margin-top: 3rem;
+    padding: 1rem 0rem;
+    gap: 2rem;
+}
+
+.game{
+    width: max-content;
+    justify-content: space-between;
+    /* gap: 5rem; */
+    width: 250px;
+    border-radius: 100vmax;
+    margin-inline: auto;
+    background-color: var(--bg-light);
+    box-shadow: 0px 0px 6px var(--text-dark);
+}
+
+.game-logo,
+.game-logo img{
+    border-radius: 50%;
+}
+
+.game-logo{
+    width: 60px;
+    height: 60px;
+    background-color: var(--text-light);
+}
+.game-logo img{
+    height: 50px;
+    width: 50px;
+}
+
+.launch-btn{
+    height: 100%;
+}
+
+.launch-btn .btn{
+    height: 100%;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    outline: none;
+}

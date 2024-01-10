@@ -7,6 +7,10 @@
     font-family: "Poppins", sans-serif;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 :root{
     --bg-dark: #2D3250;
     --bg-mid: #424769;
@@ -37,6 +41,10 @@
 
 .text-center{
     text-align: center;
+}
+
+.invert{
+    filter: invert();
 }
 
 img{

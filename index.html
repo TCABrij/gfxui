@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="src/img/icons/favicon.png" type="image/x-icon">
     <title>Kazi GFX Tool</title>
     <link rel="stylesheet" href="src/styles/global.css">
     <link rel="stylesheet" href="src/styles/login.css">
@@ -13,7 +14,7 @@
 
 <body>
     <div class="container">
-        <section>
+        <section id="login">
             <div class="header"> Login </div>
             <div class="main grid-centered">
                 <div class="login">
@@ -27,7 +28,9 @@
                         <img src="src/img/icons/clipboard.svg" alt="Paste">
                     </div>
                     <div class="buttons text-center">
-                        <button class="btn" type="submit">Login</button>
+                        <a href="#games">
+                            <button class="btn" type="submit">Login</button>
+                        </a>
                         <button class="btn" type="submit">Buy Key</button>
                     </div>
                     <div class="key-details text-center">
@@ -40,16 +43,76 @@
                     <div class="links flex-centered">
                         <img src="src/img/icons/youtube.svg" alt="">
                         <img src="src/img/icons/telegram.svg" alt="">
-                        <img src="src/img/icons/home.svg" alt="">
+                        <img src="src/img/icons/home.svg" class="home" alt="">
                         <img src="src/img/icons/instagram.svg" alt="">
                         <img src="src/img/icons/help.svg" alt="">
                     </div>
                 </nav>
             </div>
         </section>
-        <section>
+        <section id="games">
             <div class="header">Game Menu</div>
             <div class="main">
+                <div class="game-selection">
+                    <h3>
+                        Select Your Game:
+                    </h3>
+                </div>
+                <div class="games grid-centered">
+                    <div class="game flex-centered">
+                        <div class="game-logo grid-centered">
+                            <img src="src/img/icons/bgmi.png" alt="">
+                        </div>
+                        <div class="launch-btn">
+                            <a href="#features">
+                                <button class="btn"> BGMI </button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="game flex-centered">
+                        <div class="game-logo grid-centered">
+                            <img src="src/img/icons/gl.png" alt="">
+                        </div>
+                        <div class="launch-btn">
+                            <a href="#features">
+                                <button class="btn"> Global </button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="game flex-centered">
+                        <div class="game-logo grid-centered">
+                            <img src="src/img/icons/kr.png" alt="">
+                        </div>
+                        <div class="launch-btn">
+                            <a href="#features">
+                                <button class="btn"> Korea </button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="game flex-centered">
+                        <div class="game-logo grid-centered">
+                            <img src="src/img/icons/vng.png" alt="">
+                        </div>
+                        <div class="launch-btn">
+                            <a href="#features">
+                                <button class="btn"> Vietnam </button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="game flex-centered">
+                        <div class="game-logo grid-centered">
+                            <img src="src/img/icons/tw.png" alt="">
+                        </div>
+                        <div class="launch-btn">
+                            <a href="#features">
+                                <button class="btn"> Taiwan </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
+
                 <nav>
                     <div class="links flex-centered">
                         <img src="src/img/icons/youtube.svg" alt="">
@@ -60,6 +123,9 @@
                     </div>
                 </nav>
             </div>
+        </section>
+        <section id="features">
+            <div class="header">VIP</div>
         </section>
     </div>
 </body>
