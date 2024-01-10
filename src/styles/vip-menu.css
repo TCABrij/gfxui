@@ -1,0 +1,71 @@
+.features{
+    max-width: 90%;
+    margin-inline: auto;
+    /* outline: 1px solid; */
+    height: 93%;
+    padding-top: 5px;
+    overflow-y: auto;
+    position: relative;
+}
+
+.feature-card{
+    /* outline: 1px solid dodgerblue; */
+    margin-inline: auto;
+    padding: 0rem .1rem;
+    max-width: 99%;
+    border-radius: 1rem;
+    margin-top: .5rem;
+    background-color: #191e3a;
+}
+
+.feature-card .title{
+    text-align: center;
+    word-spacing: 2px;
+    background-color: #131831;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    padding: .3rem;
+}
+
+.info-and-booster{
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.device-info{
+    flex: 70%;
+}
+
+.booster{
+    flex: 30%;
+    height: 60px;
+    cursor: pointer;
+    flex-direction: column;
+}
+
+.booster img{
+    width: 50px;
+    height: 50px;
+    outline: 1px solid black;
+    border-radius: 50%;
+    padding: 1px;
+}
+
+.booster img:hover{
+    box-shadow: 0px 0px 10px black;
+}
+
+.info{
+    font-weight: 200;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info span{
+    font-weight: 400;
+}
+
+.feature-wrapper{
+    justify-content: space-between;
+    padding: .3rem;
+}
