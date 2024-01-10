@@ -7,6 +7,11 @@
     font-family: "Poppins", sans-serif;
 }
 
+::selection{
+    color: white;
+    background-color: orange;
+}
+
 body{
     letter-spacing: 1;
     font-size: 16px;
@@ -65,7 +70,8 @@ section{
 
 
 @media only screen and (max-width: 500px){
-    .main{
+    .main,
+    .header{
         width: 100%;
     }
 }
