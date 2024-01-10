@@ -1,0 +1,186 @@
+
+section{
+    scroll-snap-align: center;
+    height: 100vh;
+}
+
+.header{
+    height: 10vh;
+    font-size: 2rem;
+    color: var(--text-light);
+    font-weight: 800;
+    letter-spacing: 3px;
+    background-color: var(--bg-header);
+    border-top-left-radius: 100vmax;
+    border-top-right-radius: 100vmax;
+    display: grid;
+    place-content: center;
+}
+
+.main{
+    height: 90vh;
+    background-color: var(--bg-dark);
+    box-shadow: 0px -2px 2px rgb(0 0 0 / .15);
+    color: var(--text-light);
+    position: relative;
+}
+
+.header,
+.main{
+    width: 400px;
+    max-width: 400px;
+    margin-inline: auto;
+}
+
+.logo{
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.logo img{
+    width: 150px;
+}
+
+.logo .title{
+    font-size: x-large;
+    letter-spacing: 2px;
+    font-weight: 800;
+}
+
+.inputs{
+    display: flex;
+    gap: .5rem;
+    margin-bottom: 1rem;
+
+}
+.inputs input{
+    background-color: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid;
+    color: var(--text-light);
+    font-size: large;
+    padding: 2px;
+    padding-left: 5px;
+}
+
+.inputs input::placeholder{
+    color: var(--text-mid);
+}
+
+.inputs img{
+    filter: invert();
+    width: 35px;
+    cursor: pointer;
+}
+
+.inputs img:hover{
+    scale: .92;
+}
+
+.buttons{
+    /* outline: 1px solid; */
+}
+
+.btn{
+    padding: .3rem 1.5rem;
+    font-size: 1rem;
+    outline: none;
+    border: none;
+    color: var(--text-light);
+    background-color: var(--bg-mid);
+    border-radius: 100vmax;
+    cursor: pointer;
+    transition: all .3s;
+    box-shadow: 1px 1px 4px var(--bg-dark);
+}
+
+.btn:hover{
+    background-color: var(--bg-dark);
+    outline: 2px solid;
+    scale: .98;
+}
+
+
+.key-details{
+    margin-top: 3rem;
+}
+
+.key-title{
+    font-weight: 600;
+    margin-bottom: .5rem;
+}
+
+.registery, .expiry{
+    text-align: left;
+    font-size: .8rem;
+}
+
+.key-details span{
+    float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 500px){
+    .main, .header{
+        width: 95%;
+    }
+
+    .inputs input{
+        width: 250px;
+    }
+
+
+}
+
+/*           scrollbar            */
+
+/* WebKit (Safari, Chrome) */
+.container::-webkit-scrollbar {
+    width: 8px;
+}
+
+.container::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+}
+
+.container::-webkit-scrollbar-thumb {
+    background-color: rgb(0 0 0 / .3);
+    border-radius: 5px;
+}
+
+.container:hover::-webkit-scrollbar-thumb {
+    background-color: rgb(0 0 0 / .5);
+}
+
+/* Firefox */
+.container {
+    scrollbar-width: thin;
+}
+
+.container::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+}
+
+.container::-webkit-scrollbar-thumb {
+    background-color: rgb(0 0 0 / .3);
+    border-radius: 5px;
+}
+
+.container:hover::-webkit-scrollbar-thumb {
+    background-color: rgb(0 0 0 / .5);
+}
+
+

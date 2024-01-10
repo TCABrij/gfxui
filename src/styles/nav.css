@@ -1,0 +1,37 @@
+nav{
+    --bg-dark: #1f2234; 
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: var(--bg-dark);
+    padding: .3rem;
+    border-top-left-radius: 100vmax;
+    border-top-right-radius: 100vmax;
+    transition: all .5s;
+}
+
+nav:hover{
+    height: 50px;
+}
+
+.links{
+    /* justify-content: space-around; */
+    gap: 2rem;
+}
+
+nav img{
+    width: 30px;
+    transition: all .5s;
+    border-radius: 50%;
+}
+
+nav img:hover{
+    filter: drop-shadow(0px 0px 2px white);
+    cursor: pointer;
+    box-shadow: 0px 0px 2px rgb(255, 255, 255);
+}
+
+nav:hover img{
+    width: 40px;
+}
