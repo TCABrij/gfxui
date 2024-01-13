@@ -59,6 +59,7 @@
     font-weight: 200;
     display: flex;
     justify-content: space-between;
+    user-select: none;
 }
 
 .info span{
@@ -74,4 +75,5 @@
     padding: .5rem 0rem;
     margin: 1rem 0rem;
     gap: .3rem;
+    user-select: none;
 }

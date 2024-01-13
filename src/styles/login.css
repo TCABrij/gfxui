@@ -4,36 +4,6 @@ section{
     height: 100vh;
 }
 
-.header{
-    height: 10vh;
-    font-size: 2rem;
-    color: var(--text-light);
-    font-weight: 800;
-    letter-spacing: 3px;
-    background-color: var(--bg-header);
-    border-top-left-radius: 100vmax;
-    border-top-right-radius: 100vmax;
-    display: grid;
-    place-content: center;
-}
-
-.main{
-    height: 90vh;
-    background-color: var(--bg-dark);
-    color: var(--text-light);
-    position: relative;
-    box-shadow: 
-    inset 10px 0 10px 2px rgb(0 0 0 / .3),
-    inset -10px 0 10px 2px rgb(0 0 0 / .3);
-}
-
-.header,
-.main{
-    width: 400px;
-    max-width: 400px;
-    margin-inline: auto;
-}
-
 .logo{
     text-align: center;
     margin-bottom: 3rem;
@@ -106,6 +76,7 @@ section{
 
 .key-details{
     margin-top: 3rem;
+    user-select: none;
 }
 
 .key-title{
